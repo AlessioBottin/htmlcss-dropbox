@@ -27,6 +27,14 @@ body {
     font-family: 'Open Sans',sans-serif;
 }
 
+/* Containers  */
+.container-wide {
+
+}
+
+.container-narrow {
+
+}
 /* Layout Structure  */
 .clearfix::after {
     display: table;
@@ -67,7 +75,8 @@ a {
 }
 
 .btn-white {
-
+    width: 80%;
+    margin: auto;
 } 
 
 .btn-blue {
@@ -90,7 +99,7 @@ header .clearfix .col ul li {
     display: inline-block;
 }
 
-header .clearfix .col ul li a {
+header a {
     margin-left: 40px;
     color: black;
 }
@@ -106,6 +115,14 @@ header .logo-dropbox {
 
 /* MAIN  */
 main {
-    background-color: brown;
+    background-color: tomato;
+    height: 900px;
+}
+/* Jumbotrone  */
+.jumbotrone {
+    background-color: #b4d0e7;
+    padding: 100px 0px;
+
+    /* test  */
     height: 500px;
 }
