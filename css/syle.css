@@ -157,6 +157,7 @@ main {
 
 .col-jumbo-r {
     width: 70%;
+    position: relative;
 }
 
 /* Left Column  */
@@ -179,5 +180,5 @@ main {
 
 /* Right Column  */
 .jumbotrone img {
-    position: relative;
+    position: absolute;
 }
