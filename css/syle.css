@@ -22,14 +22,25 @@
     border: 1px solid red;
 } */
 
+
+
 /* COMMON  */
 body {
     font-family: 'Open Sans',sans-serif;
 }
 
+/* Texts  */
+.small-txt {
+    font-size: 14px;
+}
+
+.medium.txt {
+
+}
 /* Containers  */
 .container-wide {
-
+    width: 80%;
+    margin: auto;
 }
 
 .container-narrow {
@@ -67,16 +78,15 @@ a {
 }
 
 .btn-large {
-
+    padding: 5px 30px;
 }
 
-.btn-narrow {
+.btn-small {
     padding: 5px 15px;
 }
 
 .btn-white {
-    width: 80%;
-    margin: auto;
+   
 } 
 
 .btn-blue {
@@ -84,9 +94,17 @@ a {
     color: white;
 }
 
+
+
 /* HEADER  */
 header {
     padding: 0px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
 }
 
 header .clearfix .col {
@@ -113,6 +131,8 @@ header .logo-dropbox {
     vertical-align: middle;
 }
 
+
+
 /* MAIN  */
 main {
     background-color: tomato;
@@ -122,7 +142,41 @@ main {
 .jumbotrone {
     background-color: #b4d0e7;
     padding: 100px 0px;
+}
 
-    /* test  */
-    height: 500px;
+.jumbotrone h1 {
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+/* Columns  */
+.col-jumbo-l {
+    width: 30%;
+}
+
+.col-jumbo-r {
+    width: 70%;
+}
+
+/* Left Column  */
+.jumbotrone p.medium-txt {
+    margin-bottom: 30px;
+}
+
+.col-jumbo-l a {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.jumbotrone p.small-txt {
+    margin-bottom: 40px;
+}
+
+.download-icon {
+    font-size: 45px;
+}
+
+/* Right Column  */
+.jumbotrone img {
+    position: relative;
 }
