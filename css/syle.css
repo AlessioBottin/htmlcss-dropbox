@@ -5,7 +5,108 @@
     box-sizing: border-box;
 }
 
+/* Tests */
+.h80 {
+    height: 80px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.h500 {
+    height: 500px;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+
 /* COMMON  */
 body {
     font-family: 'Open Sans',sans-serif;
+}
+
+/* Layout Structure  */
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+/* Img Reset  */
+img {
+    width: 100%;
+}
+
+/* Ul Bullet List Reset */
+ul {
+    list-style-type: none;
+}
+
+/* Link Reset  */
+a {
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+
+}
+
+.btn-large {
+
+}
+
+.btn-narrow {
+    padding: 0px 20px;
+}
+
+.btn-white {
+
+} 
+
+.btn-blue {
+    background-color: #0061ff;
+    color: white;
+}
+
+/* HEADER  */
+header {
+    padding: 0px 30px;
+}
+
+header .clearfix .col {
+    width: 50%;
+    line-height: 80px;
+}
+
+/* Nav menu  */
+header .clearfix .col ul li {
+    display: inline-block;
+}
+
+header .clearfix .col ul li a {
+    display: inline-block;
+    margin-left: 40px;
+    color: black;
+}
+
+.col-header-r {
+    text-align: right;
+}
+
+/* Logo  */
+header .logo-dropbox {
+    vertical-align: middle;
+}
+
+/* MAIN  */
+main {
+    background-color: brown;
+    height: 500px;
 }
