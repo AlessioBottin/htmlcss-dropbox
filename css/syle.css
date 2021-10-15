@@ -135,6 +135,7 @@ header .logo-dropbox {
 
 /* MAIN  */
 main {
+    margin-top: 80px;
     background-color: tomato;
     height: 900px;
 }
