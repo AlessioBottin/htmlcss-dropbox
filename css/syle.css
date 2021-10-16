@@ -250,7 +250,10 @@ main {
 
 /* Features  */
 .features {
-    padding: 30px 25px;  
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px; 
+    padding-bottom: 90px; 
 }
 
 .features h3 {
@@ -296,4 +299,16 @@ main {
     background-color: gray;
     margin-top: 25px;
     margin-bottom: 45px;
+}
+
+.features .keypoints-title {
+    margin-bottom: 20px;
+}
+
+.features .keypoints-checkbox {
+    margin-bottom: 20px;
+}
+
+.features .keypoints-checkbox .keypoints-checkbox-icon {
+    color: #0061ff;
 }
