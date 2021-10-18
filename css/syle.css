@@ -394,3 +394,32 @@ main {
 .col-partner-r a {
     display: inline-block;
 }
+
+
+
+/* FUNCITONALITIES  */
+.function h2 {
+    margin-bottom: 60px;
+}
+
+.col-function {
+    width: 30%;
+}
+
+.col-function.middle {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.col-function img {
+    margin-bottom: 10px;
+}
+
+.col-function h3 {
+    margin-bottom: 30px;
+}
+
+.col-function p a {
+    color: black;
+    text-decoration: underline;
+}
