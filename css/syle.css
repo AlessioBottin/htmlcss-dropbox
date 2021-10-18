@@ -256,6 +256,16 @@ main {
     height: 900px;
 }
 
+/* Text with icon aligned, txt cannot go under icon  */
+.txt-icon {
+    padding-left: 20px;
+}
+
+.txt-icon i {
+    margin-left: -20px;
+}
+
+/* Margins  */
 .features h3 {
     margin-bottom: 20px;
 }
