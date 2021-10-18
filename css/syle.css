@@ -452,18 +452,18 @@ main {
 
 /* Banner */
 .col-banner-l, .col-banner-r {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 .col-banner-c {
-    width: calc( 100% - 1200px );
-    height: 600px;
+    width: calc( 100% - 1000px );
+    height: 500px;
 }
 
 .company-banner .box {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 .col.box {
@@ -523,12 +523,16 @@ main {
     width: 25%;
 }
 
-.col-banner-c img::after {
+.col-banner-c .logo-company-desc::after {
     content: "";
     display: block;
     height: 1px;
     width: 40px;
-    background-color: black;
+    background-color: lightgray;
     margin-top: 30px;
     margin-bottom: 45px;
+}
+
+.col-banner-c p {
+    margin-bottom: 30px;
 }
