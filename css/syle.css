@@ -423,3 +423,7 @@ main {
     color: black;
     text-decoration: underline;
 }
+
+.function .row {
+    margin-bottom: 100px;
+}
