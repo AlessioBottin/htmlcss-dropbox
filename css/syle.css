@@ -56,6 +56,12 @@ body {
     width: 70%;
     margin: auto;
 }
+
+.container-half {
+    width: 35%;
+    margin-left: 15%;
+    margin-right: 50%;
+}
 /* Layout Structure  */
 .clearfix::after {
     display: table;
@@ -425,5 +431,104 @@ main {
 }
 
 .function .row {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+} 
+
+
+
+/* LIVE COMPANY USERS */
+.company-users .container-half h2 {
+    margin-bottom: 30px;
+}
+
+.company-users .container-half a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.company-users .container-half {
+    margin-bottom: 40px;
+}
+
+/* Banner */
+.col-banner-l, .col-banner-r {
+    width: 600px;
+    height: 600px;
+}
+
+.col-banner-c {
+    width: calc( 100% - 1200px );
+    height: 600px;
+}
+
+.company-banner .box {
+    width: 300px;
+    height: 300px;
+}
+
+.col.box {
+    position: relative;
+}
+
+/* Company logos  */
+.company-banner .col-banner-l img, .company-banner .col-banner-r img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.box-1 {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.box-2 {
+    background-color: #61082b;
+}
+
+.box-3 {
+    background-color: #0093ce;
+}
+
+.box-4 {
+    background-color: #ff1c1c;
+}
+
+.box-5 {
+    background-color: #d5001f;
+}
+
+.box-6 {
+    background-color: #b4d0e7;
+}
+
+.box-7 {
+    background-color: #0d2481;
+}
+
+.box-8 {
+    background-color: #ffd830;
+}
+
+/* Central Banner Description  */
+.col-banner-c {
+    background-color: #f5f5f5;
+    padding: 45px;
+}
+
+.col-banner-c img {
+    width: 25%;
+}
+
+.col-banner-c img::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 45px;
 }
