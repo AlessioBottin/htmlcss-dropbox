@@ -111,6 +111,20 @@ a {
 
 
 
+/* EFFECTS  */
+.btn-blue:hover {
+    background-color: #3c84ff;
+}
+
+.btn-white:hover {
+    background-color: lightgray;
+}
+
+.banner-underline:hover {
+    border-bottom: 1px solid black;
+}
+
+
 /* HEADER  */
 header {
     padding: 0px 30px;
@@ -140,6 +154,11 @@ header a {
 
 .col-header-r {
     text-align: right;
+}
+
+.banner-underline {
+    padding-top: 29px;
+    padding-bottom: 29px;
 }
 
 /* Logo  */
