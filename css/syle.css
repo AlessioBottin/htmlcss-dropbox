@@ -264,7 +264,7 @@ main {
     padding-top: 30px;
     padding-left: 25px;
     padding-right: 25px;  
-    height: 900px;
+    min-height: 900px;
 }
 
 /* Text with icon aligned, txt cannot go under icon  */
