@@ -605,3 +605,53 @@ main {
     position: relative;
     left: 45%;
 }
+
+
+
+/* FOOTER  */
+footer {
+    background-color: black;
+    padding-top: 110px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 400px;
+}
+
+footer .col-footer {
+    width: 20%;
+}
+
+/* Nav Menu  */
+.col-footer h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.col-footer li a {
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
+
+/* Line  */
+footer nav::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: lightgray;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+/* Language  */
+.language-settings span {
+    color:lightgray;
+    opacity: 0.5;
+}
+
+.language-settings .sort-up {
+    vertical-align: sub;
+}
