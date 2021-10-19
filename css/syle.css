@@ -121,7 +121,7 @@ a {
 }
 
 .header-underline:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 
@@ -158,7 +158,7 @@ header a {
 
 .header-underline {
     padding-top: 29px;
-    padding-bottom: 29px;
+    padding-bottom: 28px;
 }
 
 /* Logo  */
